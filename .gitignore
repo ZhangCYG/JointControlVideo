@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+torch27/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Tooling caches
+.cache/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Project runtime outputs
+wandb/
+logs_slurm/
+outputs/
+eval/
+
+# Model checkpoints (hosted out-of-band)
+models_train_*/
+
+# Local-only large data (LMDB + H5 stores; populate from the dataset release)
+example_data/
+
+# Misc
+*.mp4
+*.zip

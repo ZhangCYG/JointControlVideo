@@ -1,0 +1,45 @@
+# Pinned to the versions used to train and release the published checkpoints
+# (NGC PyTorch 25.03 container + the Python 3.12 venv layered on top).
+# Install torch separately first (see README) since the wheel choice depends on
+# your CUDA version.
+
+# --- Core deep learning -----------------------------------------------------
+accelerate==1.12.0
+transformers==4.57.2
+tokenizers==0.22.1
+peft==0.18.0
+safetensors>=0.4.5
+einops>=0.8.0
+sentencepiece==0.2.1
+protobuf
+
+# --- HuggingFace / ModelScope download ------------------------------------
+huggingface_hub==0.36.0
+hf_xet==1.2.0
+modelscope==1.32.0
+
+# --- Video / image I/O ----------------------------------------------------
+av==16.0.1
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+opencv-python-headless==4.11.0.86
+pillow
+
+# --- Data storage ---------------------------------------------------------
+h5py==3.15.1
+lmdb==1.7.5
+
+# --- MANO hand model ------------------------------------------------------
+smplx==0.1.28
+chumpy==0.70
+
+# --- Sequence parallelism (multi-GPU inference / training) ---------------
+xfuser
+
+# --- Misc utilities -------------------------------------------------------
+ftfy==6.3.1
+numpy
+pandas
+tqdm
+wandb==0.23.0
+gitpython==3.1.45
