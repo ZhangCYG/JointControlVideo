@@ -8,8 +8,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.11755-b31b1b.svg)](https://arxiv.org/pdf/2603.11755)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://zhangcyg.github.io/handcontrolvideo/)
-[![HF Checkpoints](https://img.shields.io/badge/🤗%20Checkpoints-JointControlvideo-yellow.svg)](https://huggingface.co/CyrusZhang312/JointControlvideo)
-[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-Coming%20Soon-yellow.svg)](#dataset)
+[![HF Checkpoints](https://img.shields.io/badge/🤗%20Checkpoints-JointControlVideo-yellow.svg)](https://huggingface.co/CyrusZhang312/JointControlvideo)
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-Ego4dHandMano-yellow.svg)](https://huggingface.co/datasets/bochen123/ego4d-hand-mano)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
 </div>
@@ -42,7 +42,7 @@ The checkpoint bundle contains two files: `dit.safetensors` (LoRA weights + expa
 
 ## Dataset
 
-🤗 [Coming soon] — an automatically-annotated egocentric dataset of hand-object interaction clips paired with precise 3D hand trajectories.
+🤗 [bochen123/ego4d-hand-mano](https://huggingface.co/datasets/bochen123/ego4d-hand-mano)
 
 ---
 
